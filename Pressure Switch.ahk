@@ -40,7 +40,9 @@ Pressed(ThisHotkey) {
         ;Case "Pressed":
         Case "Toggle":
             if (multiClick = 2) {
-                send "{blind}{XButton2}"
+                attachmentMode := "Off"
+                MultiClickHandler(0)
+                ;send "{blind}{XButton2}"
             } else {
                 attachmentMode := "Off"
                 send "{blind}{XButton2}"
