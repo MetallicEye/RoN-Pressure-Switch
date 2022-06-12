@@ -1,7 +1,7 @@
 # RoN-Pressure-Switch
 Turns 'Ready Or Not' attachment toggle to a pressure/toggle system
 
-## 1.0 Features
+## 0.1.0 Features
 
  - Assumes usage of `TMB 2` (forward mouse button) for attachment control
  - From **off** assumes **pressure** mode
